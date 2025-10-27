@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    /* *{
+        padding: 0;
+        margin: 0; */
+    body{
+        background-color: gray;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    #head{
+        /* margin-top: 65px;
+        margin-bottom: 5px;
+        margin-left: 460px; */
+        border: 2px solid black;
+        height: 620px;
+        width: 400px;
+        border-radius:5%;
+        background-color: rgb(255, 255, 255);
+    }
+    img{
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+    }
+    #content{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #box{
+        
+        display: flex;
+        align-items: center;
+        /* border: solid 1px black; */
+        height: 63px;
+        background-color: rgb(244, 239, 239);
+        margin-top: 20px;
+    }
+    span{
+        opacity: 0.25;
+    }
+    button{
+        background:rgb(82, 36, 179);
+        width: 80%;
+        height: 50px;
+        margin-right: 45px;
+        border-radius:5%;
+    }
+    i{
+        background-color: rgb(221, 217, 217);;
+        border-radius: 50%;
+        padding: 20px;
+    }
+    h3{
+        margin-left: 30px;
+        padding: 25px;
+    }
+    a{
+        padding: 5%;
+        padding-left: 20%;
+    }
+    </style>
+<body>
+    <div class="main">
+        <div id="head">
+            <img src="./img.jpg" alt="" height="250px" width="400px">
+        
+          <div id="content">
+            <h2 id="q">Order Summary</h2>
+            <p id="q1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia dolore eum recusandae incidunt illo. Iure, dolor? Expedita ratione laudantium dicta.</p>
+            <div id="box">
+                <i class="fa-solid fa-music"></i>
+                <h3>Annual Pay <br> <span>$59.99/Year</span></h3>
+                 <a href="">change</a>
+            </div>
+            <br><br><br>
+            <button>Proceed to Payment</button>
+            <h4>Cancel Order</h4>
+        </div>
+    </div>
+</body>
+</html>

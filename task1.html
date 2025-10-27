@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    body{
+         background:rgb(53, 68, 7); 
+    }
+    #parent{
+        margin-top: 65px;
+        margin-bottom: 5px;
+        margin-left: 425px;
+        border: 2px solid black;
+        height: 580px;
+        width: 600px;
+        display: flex;
+        background: white;  
+        border-radius: 3%; 
+    }
+    img{
+         border-radius: 3%; 
+    }
+    #g{
+        height: 580px;
+        width: 600px;
+    }
+
+    #gh{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    #gh1{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #g1{
+        letter-spacing: 5px;
+    }
+    #content{
+        padding: 30px;
+    }
+    del{
+        opacity:0.3;
+        font-size: medium;
+    }
+     button{
+        background:green;
+        width: 230px;
+        height: 50px;
+        border-radius: 3%;
+        margin: 0 auto;
+        /* padding-left: 59px; */
+     }
+</style>
+<body>
+    <div id="parent">
+        <div id="g">
+          <img src="./perfume.jpg" alt="" height="580px" width="300">  
+        </div>
+        <div id="content">
+            <p id="g1">PERFUME</p>
+            <h1 id="gh1">Gabrielle <br> Essence Eau <br>De Parfum</h1>
+            <p id="gh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti possimus, sint ipsa sequi magni praesentium cupiditate, voluptas eligendi ea optio ducimus quas natus, nihil libero?</p>
+            <br>
+            <h1 id="g2">$149.99 &emsp;<del>$169.99</del></h1>
+         
+            <br><br>
+            <button><i class="fa-solid fa-cart-shopping"></i>Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>

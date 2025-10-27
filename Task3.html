@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    body{
+        background-color: rgb(239, 17, 17);
+        padding-top: 50px;
+        padding-left: 450px;
+    }
+    #main{
+        border: 2px solid black;
+        /* border: 2px solid green; */
+        display: flex;
+        height: 470px;
+        width: 746px;
+    }
+    #content{
+        padding-top: 20px;
+        height: 450px;
+        width: 450px;
+        padding-left: 25px;
+        background: white;
+        /* right: 20px; */
+    }
+    #d{
+        position: absolute;
+        height: 400px;
+        width: 30px;
+        margin-left: 350px;
+    }
+    img{
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 20px;
+        height: 470px;
+        width: 400px;
+    }
+    .g{
+        height: 25px;
+        width: 245px;
+        margin-right: 20px;
+        font-weight: 900;
+        padding-left: 5%;
+    }
+    #l{
+        font-size: smaller;
+         opacity: 0.5;
+         padding-left: 38px;
+    }
+    span{
+        padding-left: 45px;
+    }
+    button{
+        background: yellow;
+        height: 30px;
+        width: 230px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .j{
+        height: 25px;
+        width: 273px;
+        border: 1px solid black;
+        font-size:smaller;
+        font-weight: bolder;
+    }
+    .c{
+        width: 105px;
+        height: 25px;
+    }
+    #i{
+        position: absolute;
+        margin-top: 100px;
+        margin-right: 20px;
+        background:gray;
+        height: 25px;
+        width: 25px;
+        padding-top: 5px;
+    }
+    p{
+        text-align: center;
+    }
+    #a{
+        position: relative;
+    }
+    #b{
+        position: absolute;
+        right: -1px;
+        width: 30px;
+        height: 25px;
+        padding-top:5px ;
+        background-color: rgba(200, 188, 188, 0.821);
+    }
+    h6{
+        padding-left: 90px;
+        position:absolute;
+    }
+    h6{
+        margin-top: 215px;
+        font-size: large;
+        height: 30px;
+        width: 20px;
+    } 
+</style>
+<body>
+    <div id="main">
+        <div id="d">
+                <img src="./Screenshot 2025-09-21 224156.png" alt="" > 
+         </div> 
+         <h6 id="m">years</h6>
+         <div id="content"> 
+            <div id="i"><i class="fa-solid fa-sterling-sign"></i></div>
+             <h3>Mortgage Calculator <span id="l"><a href="#"> Clear All</a></span></h3>
+             <h5>Mortgage Amount</h5>
+             <input class="g" type="text" >
+             <h5>Mortgage Term <span id="q">&emsp; Interest Rate<span></h5>
+             <input class="c" id="sd" type="text">
+              
+             <span id="a"><input class="c" type="text"><i class="fa-solid fa-percent" id="b"></i></span>
+             <h5>Mortgage type</h5>
+                   <div class="j"><input type="radio">Repayment Only</div> <br>
+                    <div class="j"><input type="radio">Interest Only</div><br>
+                <button><i class="fa-solid fa-calculator"></i> Calculator Repayments</button> 
+        </div> 
+    </div>
+   
+</body>
+</html>
